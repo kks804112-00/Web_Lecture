@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {color: white;
+        background-color: blue;
+    }
+    #information{
+        background-color: lightblue;
+        font-weight: bold;
+    }
+    #tech{
+        background-color: lightgray;
+        h2{
+            color: blue;
+        }
+        ul{
+            font-size: larger;
+        }
+        
+    }
+    #intro{
+        background-color: lightcyan;
+        h2{color: blue;}
+    }
+    
+    #contact{
+         input[type="text"]{
+            background-color: lightyellow;
+        }
+        input[type="mail"]{
+            background-color: lightblue;
+        }
+        label{
+            display: inline-block;
+            width:80px;
+            font-weight: bold;
+        }
+        h2{
+            color: blue;
+        }
+        input{
+            background-color: black;
+            color:white
+            
+        }
+        
+    }
+
+    </style>
+
+    <header> <h1>MY PROFILE</h1>
+    <h3>Web Programming Practice</h3>
+<br></header>
+    
+</head>
+<body>
+    <div id="information">
+<img src="profile.jpg"  width="100">
+<p>김겸수</p>
+<p>전공: 컴퓨터공학전공</p>
+<p>관심분야: Web/Software</p>
+</div>
+
+<div id="tech">
+    <h2>관심 기술</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+    </ul>
+</div>
+
+<div id="intro">
+    <h2>자기 소개</h2>
+    <p>웹 프로그래밍을 공부하고 있습니다. HTML과 CSS 사용하 웹페이지의 구조와 디자인을 구현하는 방법을 학습하고 있습니다. 다양한 CSS 속성과 선택자를 사용하여 웹페이지의 디자인을 자유롭게 변경할 수 있습니다.</p>
+    <p>앞으로 JavaScript와 React까지 학습하여 사용자와 상호작용할 수 있는 다양한 웹 서비스를 개발하는 것이 목표입니다.</p>
+
+</div>
+
+<div id="contact">
+    <h2>문의하기</h2>
+      <label>이름:</label>
+        <input type="text" placeholder="이름을 입력하세요"><br>
+        <label>이메일:</label>
+        <input type="mail" placeholder="이메일을 입력하세요">
+        <br><br>
+    
+    <input type="submit" value="문의하기">
+</div>
+    
+
+
+
+   
+</body>
+</html>
