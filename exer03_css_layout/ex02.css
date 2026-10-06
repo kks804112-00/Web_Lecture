@@ -1,0 +1,58 @@
+.header {
+    width: 500px;
+    margin: 0 auto;
+    background-color: purple;
+    color:white;
+    padding: 0 200px;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: blue;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 200px;
+    
+
+}
+
+.menu_02{
+    float:left;
+    color:white;
+
+    font-size: 20px;
+    font-weight: bold;
+    
+
+ 
+}
+
+.container_02 {
+    overflow: hidden;
+}
+
+.main {
+
+    float: left;
+    border: 1px solid white
+    width: 350px;
+}
+
+.sidebar {
+    width:150px;
+    float: right;
+    background-color: lightblue;
+p{
+    border: 1px solid;
+}
+
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.background {
+
+}
