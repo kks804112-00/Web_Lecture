@@ -1,0 +1,79 @@
+.header {
+    background-color: brown;
+    color: white;
+    
+    margin: 0 auto;
+    padding: 0 200px;
+    text-align: center;
+
+}
+
+.menu{
+    background-color: red;
+    color: white;
+    overflow: hidden;
+    
+    margin: 0 auto;
+    padding: 0 200px;
+}
+
+.menu_03 {
+    float: left;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.container_03 {
+    overflow: hidden;
+    
+}
+
+.leftside {
+    float: left;
+    background-color: lightpink;
+    height: 400px;
+    h2  {
+        color: brown;
+    }
+}
+.main {
+    margin: 0 auto;
+    padding: 0 200px;
+    background-color: white;
+    height: 400px;
+    float: left;
+    
+    
+
+    h1 {
+        color: red;
+    }
+
+}
+.project1 {
+    border: 1px solid lightpink;
+    margin-bottom: 10px;
+    
+    
+}
+
+.project2 {
+    border: 1px solid lightpink;
+}
+
+.rightside {
+    float: right;
+    background-color: lightpink;
+    height: 400px;
+    h2 { color: brown;
+
+
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
